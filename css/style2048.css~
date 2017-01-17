@@ -1,0 +1,88 @@
+body{
+    background: url(http://oct3pmpde.bkt.clouddn.com/13.jpeg) 170px -50px;
+}
+
+
+
+
+.success{
+    position: absolute;
+    top: 255px;
+    left: 519px;
+    z-index: 101;
+    display: none;
+    font: bold 40px '微软雅黑';
+    color:#333;
+}
+
+.fail{
+    position: absolute;
+    top: 255px;
+    left: 519px;
+    z-index: 101;
+    display: none;
+    font: bold 40px '微软雅黑';
+    color:#333;
+}
+
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    font: bold 40px/15px Arial;
+    margin: 20px auto 10px auto;
+}
+
+.inf{
+    margin: 20px auto;
+}
+
+header .newGameButton{
+    display: inline-block;
+    width: 100px;
+    padding: 7px 8px 8px 8px;
+    background-color: #8f7a66;
+
+    font: 15px '微软雅黑';
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.myscore{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header .newGameButton:hover{
+    background-color: #333;
+}
+
+#grid-container{
+
+    margin: 20px auto 0 auto;
+    background-color: #e6d7d7;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-cell{
+    border-radius: 6px;
+    background-color: #333;
+
+    position: absolute;
+}
+
+.number-cell{
+    border-radius: 6px;
+    text-align: center;
+
+    position: absolute;
+}
